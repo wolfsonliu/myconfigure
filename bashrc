@@ -15,9 +15,12 @@ fi
 ## Personal Setting
 ####################
 
+
+
 if [ -f ~/.bash_specific ]; then
 	. ~/.bash_specific
 fi
+
 
 
 #########
