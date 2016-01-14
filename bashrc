@@ -21,8 +21,6 @@ if [ -f ~/.bash_specific ]; then
 	. ~/.bash_specific
 fi
 
-
-
 #########
 ## EOF ##
 #########
