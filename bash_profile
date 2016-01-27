@@ -22,3 +22,5 @@ INFOPATH=/usr/local/texlive/2015/texmf-dist/doc/info:$INFOPATH
 
 export INFOPATH
 
+# Personalization
+
