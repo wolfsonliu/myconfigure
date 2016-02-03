@@ -21,6 +21,9 @@ if [ -f ~/.bash_specific ]; then
 	. ~/.bash_specific
 fi
 
+# Setting Prompt Style
+export PS1="\[$(tput bold)\]\[$(tput setaf 4)\][\[$(tput setaf 5)\]\u\[$(tput setaf 4)\]@\[$(tput setaf 5)\]\h \[$(tput setaf 2)\]\W\[$(tput setaf 4)\]]\\$ \[$(tput sgr0)\]"
+
 #########
 ## EOF ##
 #########
