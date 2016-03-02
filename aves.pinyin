@@ -1,3 +1,6 @@
+鸟纲 niao'gang
+
+鸡形目 ji'xing'mu
 雪鹑 xue'chun
 藏雪鸡 zang'xue'ji
 阿尔泰雪鸡 a'er'tai'xue'ji
@@ -61,6 +64,8 @@
 黑嘴松鸡 hei'zui'song'ji
 花尾榛鸡 hua'wei'zhen'ji
 斑尾榛鸡 ban'wei'zhen'ji
+
+雁形目 yan'xing'mu
 栗树鸭 li'shu'ya
 白头硬尾鸭 bai'tou'ying'wei'ya
 疣鼻天鹅 you'bi'tian'e
@@ -115,6 +120,8 @@
 林三趾鹑 lin'san'zhi'chun
 黄脚三趾鹑 huang'jiao'san'zhi'chun
 棕三趾鹑 zong'san'zhi'chun
+
+䴕形目 lie'xing'mu
 黄腰响蜜䴕 huang'yao'xiang'mi'lie
 蚁䴕 yi'lie
 斑姬啄木鸟 ban'ji'zhuo'mu'niao
@@ -154,18 +161,28 @@
 蓝喉拟啄木鸟 lan'hou'ni'zhuo'mu'niao
 蓝耳拟啄木鸟 lan'er'ni'zhuo'mu'niao
 赤胸拟啄木鸟 chi'xiong'ni'zhuo'mu'niao
+
+犀鸟目 xi'niao'mu
 冠斑犀鸟 guan'ban'xi'niao
 双角犀鸟 shuang'jiao'xi'niao
 白喉犀鸟 bai'hou'xi'niao
 棕颈犀鸟 zong'jing'xi'niao
 花冠皱盔犀鸟 hua'guan'zhou'gui'xi'niao
+
+戴胜目 dai'sheng'mu
 戴胜 dai'sheng
+
+咬鹃目 yao'juan'mu
 橙胸咬鹃 cheng'xiong'yao'juan
 红头咬鹃 hong'tou'yao'juan
 红腹咬鹃 hong'fu'yao'juan
+
+佛法僧目 fo'fa'seng'mu
+佛法僧科 fo'fa'seng'ke
 蓝胸佛法僧 lan'xiong'fo'fa'seng
 棕胸佛法僧 zong'xiong'fo'fa'seng
 三宝鸟 san'bao'niao
+翠鸟科 cui'niao'ke
 斑头大翠鸟 ban'tou'da'cui'niao
 普通翠鸟 pu'tong'cui'niao
 蓝耳翠鸟 lan'er'cui'niao
@@ -177,12 +194,15 @@
 白领翡翠 bai'ling'fei'cui
 冠鱼狗 guan'fei'cui
 斑鱼狗 ban'fei'cui
+蜂虎科 feng'hu'ke
 蓝须夜蜂虎 lan'xu'ye'feng'hu
 绿喉蜂虎 lv'hou'feng'hu
 蓝喉蜂虎 lan'hou'feng'hu
 栗喉蜂虎 li'hou'feng'hu
 黄喉蜂虎 huang'hou'feng'hu
 栗头蜂虎 li'tou'feng'hu
+
+鹃形目 juan'xing'mu
 斑翅凤头鹃 ban'chi'feng'tou'juan
 红翅凤头鹃 hong'chi'feng'tou'juan
 鹰鹃 ying'juan
@@ -201,12 +221,16 @@
 绿嘴地鹃 lv'zui'di'juan
 褐翅鸦鹃 he'chi'ya'juan
 小鸦鹃 xiao'ya'juan
+
+鹦形目 ying'xing'mu
 短尾鹦鹉 duan'wei'ying'wu
 红领绿鹦鹉 hong'ling'lv'ying'wu
 灰头鹦鹉 hui'tou'ying'wu
 花头鹦鹉 hua'tou'ying'wu
 大紫胸鹦鹉 da'zi'xiong'ying'wu
 绯胸鹦鹉 fei'xiong'ying'wu
+
+雨燕目 yu'yan'mu
 短嘴金丝燕 duan'zui'jin'si'yan
 戈氏金丝燕 ge'shi'jin'si'yan
 白喉针尾雨燕 bai'hou'zhen'wei'yu'yan
@@ -217,6 +241,8 @@
 白腰雨燕 bai'yao'yu'yan
 小白腰雨燕 xiao'bai'yao'yu'yan
 凤头树燕 feng'tou'shu'yan
+
+鸮形目 xiao'xing'mu
 仓鸮 cang'xiao
 草鸮 cao'xiao
 栗鸮 li'xiao
@@ -248,6 +274,8 @@
 鹰鸮 ying'xiao
 长耳鸮 chang'er'xiao
 短耳鸮 duan'er'xiao
+
+夜鹰目 ye'ying'mu
 黑顶蟆口鸱 hei'ding'ma'kou'chi
 毛腿耳夜鹰 mao'tui'er'ye'ying
 普通夜鹰 'pu'tong'ye'ying
@@ -256,6 +284,8 @@
 中亚夜鹰 zhong'ya'ye'ying
 长尾夜鹰 chang'wei'ye'ying
 林夜鹰 lin'ye'ying
+
+鸽形目 ge'xing'mu
 原鸽 yuan'ge
 岩鸽 yan'ge
 雪鸽 xue'ge
@@ -287,9 +317,13 @@
 黑颏果鸠 hei'ke'guo'jiu
 绿皇鸠 lv'huang'jiu
 山皇鸠 shan'huang'jiu
+
+
 小鸨 xiao'bao
 大鸨 da'bao
 波斑鸨 bo'ban'bao
+
+鹤形目 he'xing'mu
 白鹤 bai'he
 赤颈鹤 chi'jing'he
 白枕鹤 bai'zhen'he
@@ -299,6 +333,7 @@
 白头鹤 bai'tou'he
 黑颈鹤 hei'jing'he
 丹顶鹤 dan'ding'he
+秧鸡科 yang'ji'ke
 花田鸡 hua'tian'ji
 红腿斑秧鸡 hong'tui'ban'yang'ji
 白喉斑秧鸡 bai'hou'ban'yang'ji
@@ -318,9 +353,14 @@
 紫水鸡 zi'shui'ji
 黑水鸡 hei'shui'ji
 骨顶鸡 gu'ding'ji
+
+沙鸡目 sha'ji
 西藏毛腿沙鸡 xi'zang'mao'tui'sha'ji
 毛腿沙鸡 mao'tui'sha'ji
 黑腹沙鸡 hei'fu'sha'ji
+
+鸻形目 heng'xing'mu
+鹬科 yu'ke
 丘鹬 qiu'yu
 孤沙锥 gu'sha'zhui
 澳南沙锥 ao'nan'sha'zhui
@@ -372,17 +412,25 @@
 饰胸鹬 shi'xiong'yu
 阔嘴鹬 kuo'zui'yu
 流苏鹬 liu'su'yu
+瓣蹼鹬科 ban'pu'yu'ke
 红颈瓣蹼鹬 hong'jing'ban'pu'yu
 灰瓣蹼鹬 hui'ban'pu'yu
+彩鹬科 cai'yu'ke
 彩鹬 cai'yu
+雉鸻科 zhi'heng'ke
 水雉 shui'zhi
 铜翅水雉 tong'chi'shui'zhi
+石鸻科 shi'heng'ke
 欧石鸻 ou'shi'heng
 大石鸻 da'shi'heng
+蛎鹬科 li'yu'ke
 蛎鹬 li'yu
+鹮嘴鹬科 huan'zui'yu'ke
 鹮嘴鹬 huan'zui'yu
+反嘴鹬科 fan'zui'yu'ke
 黑翅长脚鹬 hei'chi'chang'jiao'yu
 反嘴鹬 fan'zui'yu
+鸻科 heng'ke
 金斑鸻 jin'ban'heng
 灰斑鸻 hui'ban'heng
 剑鸻 jian'heng
@@ -398,9 +446,12 @@
 距翅麦鸡 ju'chi'mai'ji
 灰头麦鸡 hui'tou'mai'ji
 肉垂麦鸡 rou'chui'mai'ji
+燕鸻科 yan'heng'ke
 领燕鸻 ling'yan'heng
 普通燕鸻 pu'tong'yan'heng
 灰燕鸻 hui'yan'heng
+
+鸥科 ou'ke
 麦氏贼鸥 mai'shi'zei'ou
 中贼鸥 zhong'zei'ou
 短尾贼鸥 duan'wei'zei'ou
@@ -445,6 +496,8 @@
 扁嘴海雀 bian'zui'hai'que
 冠海雀 guan'hai'que
 角嘴海雀 jiao'zui'hai'que
+
+鹰形目 ying'xing'mu
 鹗 e
 褐冠鹃隼 he'guan'juan'sun
 黑冠鹃隼 hei'guan'juan'sun
@@ -494,6 +547,8 @@
 靴隼雕 xue'sun'diao
 棕腹隼雕 zong'fu'sun'diao
 鹰雕 ying'diao
+
+隼形目 sun'xing'mu
 红腿小隼 hong'tui'xiao'sun
 白腿小隼 bai'tui'xiao'sun
 黄爪隼 huang'zhua'sun
@@ -507,11 +562,15 @@
 矛隼 mao'sun
 游隼 you'sun
 拟游隼 ni'you'sun
+
+䴙䴘目 pi'ti'mu
 小䴙䴘 xiao'pi'ti
 赤颈䴙䴘 chi'jing'pi'ti
 凤头䴙䴘 feng'tou'pi'ti
 角䴙䴘 jiao'pi'ti
 黑颈䴙䴘 hei'jing'ti
+
+
 红嘴鹲 hong'zui'meng
 红尾鹲 hong'wei'meng
 白尾鹲 bai'wei'meng
@@ -582,6 +641,8 @@
 白腰叉尾海燕 bai'yao'cha'wei'hai'yan
 黑叉尾海燕 hei'cha'wei'hai'yan
 日本叉尾海燕 ri'ben'cha'wei'hai'yan
+
+雀形目 que'xing'mu
 双辫八色鸫 shuang'bian'ba'se'dong
 蓝枕八色鸫 lan'zhen'ba'se'dong
 蓝背八色鸫 lan'bei'ba'se'dong
@@ -845,6 +906,7 @@
 黄腹山雀 huang'fu'shan'que
 褐冠山雀 he'guan'shan'que
 大山雀 da'shan'que
+远东山雀 yuan'dong'shan'que
 绿背山雀 lv'bei'shan'que
 黄颊山雀 huang'jia'shan'que
 台湾黄山雀 tai'wan'huang'shan'que

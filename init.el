@@ -1,5 +1,8 @@
 ;; {{{ Basic setting
+(setq-default tab-width 4)
+;; set tab width.
 (setq-default indent-tabs-mode nil)
+;; using space instead of tabs. 
 ;; }}}
 
 ;; {{{ Load extension
@@ -25,6 +28,8 @@
 ;; Auto mode with Markdown filetype.
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+
+;; Themes
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
