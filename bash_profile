@@ -9,16 +9,16 @@ fi
 
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
-PATH=/usr/local/texlive/2015/bin/x86_64-linux/:$PATH
+PATH=$PATH
 
 export PATH
 
-MANPATH=/usr/local/texlive/2015/texmf-dist/doc/man:$MANPATH
+MANPATH=$MANPATH
 
 export MANPATH
 
 
-INFOPATH=/usr/local/texlive/2015/texmf-dist/doc/info:$INFOPATH
+INFOPATH=$INFOPATH
 
 export INFOPATH
 

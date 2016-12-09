@@ -1,8 +1,25 @@
 ;;{{{Basic setting
 ;; set tab width.
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (setq-default tab-width 4)
 ;; using space instead of tabs. 
 (setq-default indent-tabs-mode nil)
+;; packages
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+;; ssh
+;; (require 'ssh)
+;; (add-hook 'ssh-mode-hook
+;;           (lambda ()
+;;             (setq ssh-directory-tracking-mode t)
+;;             (shell-dirtrack-mode t)
+;;             (setq dirtrackp nil)))
 ;;}}}
 
 ;;{{{Load extension
@@ -37,28 +54,7 @@
 ;;}}}
 
 ;;{{{Python setting.
-; Python mode
-;(add-to-list 'load-path "~/.emacs.d/python-mode") 
-;(setq py-install-directory "~/.emacs.d/python-mode")
-;(add-to-list 'load-path py-install-directory)
-;(require 'python-mode)
-; use IPython
-;(setq-default py-shell-name "ipython")
-;(setq-default py-which-bufname "IPython")
-; use the wx backend, for both mayavi and matplotlib
-;; (setq py-python-command-args
-;;   '("--gui=gtk3" "--pylab=gtk3" "--colors=Linux" "--simple-prompt"))
-;; (setq py-force-py-shell-name-p t)
-;; ; switch to the interpreter after executing code
-;; (setq py-shell-switch-buffers-on-execute-p t)
-;; (setq py-switch-buffers-on-execute-p t)
-;; ; don't split windows
-;; (setq py-split-windows-on-execute-p nil)
-;; ; try to automagically figure out indentation
-;; (setq py-smart-indentation t)
-;; EIN: Jupyter
-;(add-to-list 'load-path "~/.emacs.d/emacs-ipython-notebook/lisp")                                       ;
-;(require 'ein)
+(elpy-enable)
 ;; Python.el
 (setq python-shell-interpreter "ipython"
       python-shell-interpreter-args "--simple-prompt -i --gui=gtk3 --colors=Linux")
@@ -86,7 +82,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (tango-dark)))
- '(markdown-command "/usr/bin/pandoc"))
+ '(markdown-command "/usr/bin/pandoc")
+ '(package-selected-packages (quote (elpy auto-complete python-mode ssh)))
+ )
 ;;}}}
 
 
