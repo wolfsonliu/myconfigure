@@ -56,7 +56,8 @@
 ;;{{{Python setting.
 (elpy-enable)
 ;; Python.el
-(setq python-shell-interpreter "ipython"
+(setq python-indent 4)
+(setq python-shell-interpreter "ipython3"
       python-shell-interpreter-args "--simple-prompt -i --gui=gtk3 --colors=Linux")
 ;;}}}
 
@@ -82,9 +83,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (tango-dark)))
+ '(elpy-rpc-python-command "python3")
  '(markdown-command "/usr/bin/pandoc")
  '(package-selected-packages (quote (elpy auto-complete python-mode ssh)))
- )
+ '(python-shell-interpreter "python3"))
 ;;}}}
 
 
