@@ -14,13 +14,38 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 ;; ssh
-;; (require 'ssh)
-;; (add-hook 'ssh-mode-hook
-;;           (lambda ()
-;;             (setq ssh-directory-tracking-mode t)
-;;             (shell-dirtrack-mode t)
-;;             (setq dirtrackp nil)))
+(require 'ssh)
+(add-hook 'ssh-mode-hook
+          (lambda ()
+            (setq ssh-directory-tracking-mode t)
+            (shell-dirtrack-mode t)
+            (setq dirtrackp nil)))
+(require 'whitespace)
+(setq whitespace-style '(face empty tabs lines-tail trailing))
+(global-whitespace-mode t)
 ;;}}}
+
+;;{{{Themes
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (tango-dark)))
+ '(delete-selection-mode nil)
+ '(elpy-rpc-python-command "python3")
+ '(markdown-command "/usr/bin/pandoc")
+ '(package-selected-packages
+   (quote
+    (markdown-mode+ markdown-mode elpy auto-complete python-mode ssh))))
+;;}}}
+
 
 ;;{{{Load extension
 ;;{{{ Folding mode
@@ -57,6 +82,8 @@
 (elpy-enable)
 ;; Python.el
 (setq python-indent 4)
+;; (setq python-shell-interpreter "python3"
+;;       python-shell-interpreter-args "")
 (setq python-shell-interpreter "ipython3"
       python-shell-interpreter-args "--simple-prompt -i --gui=gtk3 --colors=Linux")
 ;;}}}
@@ -68,25 +95,4 @@
 ;;}}}
 
 ;;}}}
-
-;;{{{Themes
-
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (tango-dark)))
- '(elpy-rpc-python-command "python3")
- '(markdown-command "/usr/bin/pandoc")
- '(package-selected-packages (quote (elpy auto-complete python-mode ssh)))
- '(python-shell-interpreter "python3"))
-;;}}}
-
 
