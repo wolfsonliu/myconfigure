@@ -8,7 +8,7 @@
 (package-initialize)
 
 (setq-default tab-width 4)
-;; using space instead of tabs. 
+;; using space instead of tabs.
 (setq-default indent-tabs-mode nil)
 ;; packages
 (require 'package)
@@ -43,7 +43,7 @@
  '(markdown-command "/usr/bin/pandoc")
  '(package-selected-packages
    (quote
-    (markdown-mode+ markdown-mode elpy auto-complete python-mode ssh))))
+    (auctex markdown-mode+ markdown-mode elpy auto-complete python-mode ssh))))
 ;;}}}
 
 
@@ -72,6 +72,11 @@
 ;;{{{LaTex setting.
 ;; Indentation setting.
 (setq-default tex-basic-offset 4)
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+(setq-default TeX-master nil)
+(setq-default TeX-engine 'xetex)
+(setq-default TeX-PDF-mode t)
 ;;}}}
 
 ;;{{{R setting.
