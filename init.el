@@ -43,7 +43,7 @@
  '(markdown-command "/usr/bin/pandoc")
  '(package-selected-packages
    (quote
-    (auctex markdown-mode+ markdown-mode elpy auto-complete python-mode ssh))))
+    (auto-compile auctex markdown-mode+ markdown-mode elpy auto-complete python-mode ssh))))
 ;;}}}
 
 
@@ -77,6 +77,9 @@
 (setq-default TeX-master nil)
 (setq-default TeX-engine 'xetex)
 (setq-default TeX-PDF-mode t)
+(add-hook 'LaTeX-mode-hook
+          (lambda ()
+            (TeX-fold-mode 1)))
 ;;}}}
 
 ;;{{{R setting.
