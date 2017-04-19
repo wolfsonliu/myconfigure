@@ -15,6 +15,9 @@ fi
 ## Personal Setting
 ####################
 
+# Don't know why, but to use yast2
+xhost +SI:localuser:zhiheng
+
 
 
 if [ -f ~/.bash_specific ]; then
