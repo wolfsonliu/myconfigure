@@ -5,7 +5,7 @@
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
-(package-initialize)
+;(package-initialize)
 
 (setq-default tab-width 4)
 ;; using space instead of tabs.
@@ -14,12 +14,7 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 ;; ssh
-(require 'ssh)
-(add-hook 'ssh-mode-hook
-          (lambda ()
-            (setq ssh-directory-tracking-mode t)
-            (shell-dirtrack-mode t)
-            (setq dirtrackp nil)))
+
 (require 'whitespace)
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
@@ -49,6 +44,7 @@
 
 ;;{{{Load extension
 ;;{{{ Folding mode
+(require 'folding)
 (if (load "folding" 'nomessage 'noerror)
     (folding-mode-add-find-file-hook))
 (folding-add-to-marks-list 'r-mode "###{{{" "###}}}" nil t)
@@ -83,10 +79,12 @@
 ;;}}}
 
 ;;{{{R setting.
+(require 'ess)
 (setq ess-indent-level 4)
 ;;}}}
 
 ;;{{{Python setting.
+(require 'elpy)
 (elpy-enable)
 ;; Python.el
 (setq python-indent 4)
@@ -103,4 +101,3 @@
 ;;}}}
 
 ;;}}}
-
