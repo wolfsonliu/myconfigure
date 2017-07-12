@@ -16,7 +16,7 @@ fi
 ####################
 
 # Don't know why, but to use yast2
-xhost +SI:localuser:zhiheng
+# xhost +SI:localuser:zhiheng
 
 
 
