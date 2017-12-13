@@ -66,9 +66,10 @@ AUTHOR_FEED_RSS = None
 #         ("野生动植物保护国际（中国）", "http://www.ffichina.org/"))
 
 # Social widget
-SOCIAL = (("github", "https://github.com/wolfsonliu"),
-          ("douban", "http://www.douban.com/people/77536581/"),)
-
+SOCIAL = (('github', 'https://github.com/wolfsonliu'),
+          ('douban', 'https://www.douban.com/people/77536581/'),
+          ('zhihu', 'https://www.zhihu.com/people/wolfson'),
+          ('ebird', 'https://ebird.org/ebird/profile/NDY3ODYz'),)
 
 ##### Theme setting
 THEME = "pelican-themes/pelican-blue"
@@ -77,7 +78,7 @@ MENUITEMS = (
     ("文章", SITEURL + "/" + ARCHIVES_SAVE_AS),
     ("类别", SITEURL + "/" + CATEGORIES_SAVE_AS),
     ("标签", SITEURL + "/" + TAGS_SAVE_AS),
-    #("过去", SITEURL + "/" + YEAR_ARCHIVE_SAVE_AS),
+    ("过去", SITEURL + "/" + "posts/2017/index.html"),
     ("关于", SITEURL+"/about.html"),
 )
 MENU_INTERNAL_PAGES = (
